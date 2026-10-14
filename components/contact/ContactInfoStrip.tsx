@@ -57,9 +57,9 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<Phone className="w-8 h-8" />}
             label="CALL US ANYTIME"
-            value="+13052839548"
-            sub="Monâ€“Sat 9:00am â€“ 7:00pm"
-            href="tel:+13052839548"
+            value="+13234628400"
+            sub="Mon–Sat 9:00am – 7:00pm"
+            href="tel:+13234628400"
             delay={0}
             showDivider={true}
           />
@@ -67,9 +67,9 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<Mail className="w-8 h-8" />}
             label="SEND US AN EMAIL"
-            value="info@prowrench.com"
+            value="smgautorepair@gmail.com"
             sub="We reply within 24 hours"
-            href="mailto:info@prowrench.com"
+            href="mailto:smgautorepair@gmail.com"
             delay={100}
             showDivider={true}
           />
@@ -77,8 +77,8 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<MapPin className="w-8 h-8" />}
             label="VISIT OUR LOCATION"
-            value="14092 SW 260th St, Homestead, FL 33032, United States"
-            sub="Homestead, FL"
+            value="4700 Beverly Blvd, Los Angeles, CA 90004, United States"
+            sub="Los Angeles, CA"
             delay={200}
             showDivider={false}
           />

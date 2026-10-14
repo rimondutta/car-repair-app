@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Phone } from "lucide-react";
 
@@ -38,7 +38,7 @@ export default function ServiceCTABanner() {
 
           {/* Center Block */}
           <h2 className="text-white heading-font text-2xl md:text-4xl lg:text-5xl font-black uppercase tracking-wider whitespace-nowrap drop-shadow-lg">
-            Give A Call To ProWrench Mobile
+            Give A Call To S.M.G. Auto Repair
           </h2>
 
           {/* Right Block */}
@@ -48,7 +48,7 @@ export default function ServiceCTABanner() {
             </div>
             <div className="flex flex-col text-left">
               <span className="text-white text-xs uppercase tracking-wider opacity-80 group-hover:text-[var(--color-primary)]">We are Available 24x7</span>
-              <span className="text-white font-bold text-lg md:text-xl group-hover:text-[var(--color-primary)]">+13052839548</span>
+              <span className="text-white font-bold text-lg md:text-xl group-hover:text-[var(--color-primary)]">+13234628400</span>
             </div>
           </div>
 

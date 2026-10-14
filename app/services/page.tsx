@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import PageHeroBanner from "../../components/services/PageHeroBanner";
 import ServicesContainer from "../../components/services/ServicesContainer";
 import ServiceProcess from "../../components/services/ServiceProcess";
@@ -7,7 +7,7 @@ import ServiceFAQ from "../../components/services/ServiceFAQ";
 import ServiceGuarantee from "../../components/services/ServiceGuarantee";
 
 export const metadata: Metadata = {
-  title: "Our Services | ProWrench Mobile",
+  title: "Our Services | S.M.G. Auto Repair",
   description: "Expert car repair services including engine repair, tire change, denting repair, ceramic coating and more. Certified mechanics, 6-month guarantee.",
 };
 

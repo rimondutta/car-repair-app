@@ -1,4 +1,4 @@
-import PageHeroBanner from "../../../components/services/PageHeroBanner";
+﻿import PageHeroBanner from "../../../components/services/PageHeroBanner";
 import ServiceDetails from "../../../components/services/ServiceDetails";
 import ServiceSidebar from "../../../components/services/ServiceSidebar";
 import ServiceCTABanner from "../../../components/services/ServiceCTABanner";
@@ -16,12 +16,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!service) {
     return {
-      title: "Service Not Found | ProWrench Mobile",
+      title: "Service Not Found | S.M.G. Auto Repair",
     };
   }
 
   return {
-    title: `${service.title} | ProWrench Mobile`,
+    title: `${service.title} | S.M.G. Auto Repair`,
     description: service.shortDescription,
   };
 }

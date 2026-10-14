@@ -1,8 +1,8 @@
 import { MapPin, Phone, Clock, ArrowUpRight } from "lucide-react";
 
 export default function ContactMapSection() {
-  const address = "14092 SW 260th St, Homestead, FL 33032, United States";
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.1!2d-122.19!3d47.48!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDI4JzM3LjQiTiAxMjLCsDExJzI0LjAiVw!5e0!3m2!1sen!2sus!4v1234567890`;
+  const address = "4700 Beverly Blvd, Los Angeles, CA 90004, United States";
+  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.6904175651625!2d-118.31437158595807!3d34.07744948813996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b93f565d8657%3A0xc070979103689c92!2sS.M.G.%20Auto%20Repair!5e0!3m2!1sen!2sbd!4v1791994148998!5m2!1sen!2sbd`;
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address)}`;
 
   return (
@@ -21,7 +21,7 @@ export default function ContactMapSection() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="ProWrench Mobile Location"
+          title="S.M.G. Auto Repair Location"
           className="w-full h-full"
         />
       </div>
@@ -31,7 +31,7 @@ export default function ContactMapSection() {
         <div className="bg-[#1B1B1B] border border-[#2e2e2e] p-8 shadow-2xl relative animate-in slide-in-from-left duration-700">
           <div className="absolute left-0 top-0 bottom-0 w-1 bg-[#D70006]"></div>
           
-          <h3 className="text-white text-xl font-bold uppercase heading-font mb-4 tracking-wider">ProWrench Mobile</h3>
+          <h3 className="text-white text-xl font-bold uppercase heading-font mb-4 tracking-wider">S.M.G. Auto Repair</h3>
           
           <div className="flex flex-col gap-4">
             <div className="flex items-start gap-4">
@@ -41,7 +41,7 @@ export default function ContactMapSection() {
             
             <div className="flex items-center gap-4">
               <Phone className="text-[#D70006] w-5 h-5" />
-              <p className="text-[#999] text-sm">+13052839548</p>
+              <p className="text-[#999] text-sm">+13234628400</p>
             </div>
             
             <div className="flex items-center gap-4">

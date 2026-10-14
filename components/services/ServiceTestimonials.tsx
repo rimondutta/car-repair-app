@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "ALEXANDER G. RAY",
     role: "Happy Client",
-    review: "The engine diagnostics and repair service at ProWrench Mobile was exceptional. My car feels like new again, and the team provided professional advice throughout the process. Highly recommended!",
+    review: "The engine diagnostics and repair service at S.M.G. Auto Repair was exceptional. My car feels like new again, and the team provided professional advice throughout the process. Highly recommended!",
     rating: 5,
     date: "March 15, 2026"
   },

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Phone } from "lucide-react";
 import { servicesData } from "../../data/services";
 
@@ -58,8 +58,8 @@ export default function ServiceSidebar({ currentSlug }: ServiceSidebarProps) {
             Need Help? Call Us Now
           </span>
           
-          <a href="tel:+13052839548" className="text-white text-3xl font-black drop-shadow-xl hover:text-black transition-colors">
-            +1 305 283 9548
+          <a href="tel:+13234628400" className="text-white text-3xl font-black drop-shadow-xl hover:text-black transition-colors">
+            +1 323 462 8400
           </a>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Bai_Jamjuree, Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -17,7 +17,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "ProWrench Mobile | Car Repair and Maintenance",
+  title: "S.M.G. Auto Repair | Car Repair and Maintenance",
   description: "Best automobile maintenance workshop providing all types of car repair and maintenance services.",
 };
 

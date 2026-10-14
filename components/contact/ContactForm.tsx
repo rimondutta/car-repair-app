@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useContactForm } from "@/hooks/useContactForm";
 import { Send, CheckCircle, Loader2, ChevronDown } from "lucide-react";
@@ -26,7 +26,7 @@ export default function ContactForm() {
           Message Sent Successfully!
         </h2>
         <p className="text-[#999] text-base mb-10 max-w-sm">
-          Thank you for reaching out to ProWrench Mobile. Our team will review your message and get back to you within 24 hours.
+          Thank you for reaching out to S.M.G. Auto Repair. Our team will review your message and get back to you within 24 hours.
         </p>
         <button 
           onClick={resetForm}

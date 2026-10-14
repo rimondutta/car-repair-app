@@ -27,9 +27,9 @@ export default function ContactInfoPanel() {
   }, []);
 
   const contactRows = [
-    { icon: <Phone size={18} />, label: "Phone", value: "+1 305 283 9548", href: "tel:+13052839548" },
-    { icon: <Mail size={18} />, label: "Email", value: "info@prowrench.com", href: "mailto:info@prowrench.com" },
-    { icon: <MapPin size={18} />, label: "Address", value: "14092 SW 260th St, Homestead, FL 33032, United States", href: undefined },
+    { icon: <Phone size={18} />, label: "Phone", value: "+1 323 462 8400", href: "tel:+13234628400" },
+    { icon: <Mail size={18} />, label: "Email", value: "smgautorepair@gmail.com", href: "mailto:smgautorepair@gmail.com" },
+    { icon: <MapPin size={18} />, label: "Address", value: "4700 Beverly Blvd, Los Angeles, CA 90004, United States", href: undefined },
   ];
 
   return (
@@ -56,7 +56,7 @@ export default function ContactInfoPanel() {
         </h2>
         
         <p className="text-[#999] text-base leading-relaxed mb-8">
-          When you bring your vehicle to ProWrench Mobile, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure your experience is pleasant and efficient.
+          When you bring your vehicle to S.M.G. Auto Repair, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure your experience is pleasant and efficient.
         </p>
 
         <div className="flex flex-col gap-6">

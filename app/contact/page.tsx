@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import ContactHeroBanner from "@/components/contact/ContactHeroBanner";
 import ContactInfoStrip from "@/components/contact/ContactInfoStrip";
 import ContactMainSection from "@/components/contact/ContactMainSection";
@@ -6,8 +6,8 @@ import ContactMapSection from "@/components/contact/ContactMapSection";
 import ContactCTABanner from "@/components/contact/ContactCTABanner";
 
 export const metadata: Metadata = {
-  title: "Contact Us | ProWrench Mobile",
-  description: "Get in touch with ProWrench Mobile. Call us, email us, or visit our workshop at 14092 SW 260th St, Homestead, FL 33032, United States. Professional car maintenance services.",
+  title: "Contact Us | S.M.G. Auto Repair",
+  description: "Get in touch with S.M.G. Auto Repair. Call us, email us, or visit our workshop at 4700 Beverly Blvd, Los Angeles, CA 90004, United States. Professional car maintenance services.",
 };
 
 export default function ContactPage() {
