@@ -1,5 +1,6 @@
 export type ServiceCategory =
   | 'all'
+  | 'roadside-towing'
   | 'engine-mechanical'
   | 'tires-wheels'
   | 'body-denting'

@@ -18,6 +18,8 @@ import {
   Aperture, 
   Sparkles, 
   Settings2,
+  Truck,
+  ShieldAlert,
   LucideIcon 
 } from "lucide-react";
 import Link from "next/link";
@@ -39,9 +41,11 @@ const ICON_MAP: Record<string, LucideIcon> = {
   Aperture,
   Sparkles,
   Settings2,
+  Truck,
+  ShieldAlert,
 };
 
-const services = servicesData.slice(0, 8); // Show first 8 services in carousel
+const services = servicesData.slice(0, 10); // Show services in carousel
 
 export default function ServicesCarousel() {
   const { ref, isVisible } = useScrollAnimation();

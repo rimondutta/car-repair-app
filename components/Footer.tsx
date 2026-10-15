@@ -31,7 +31,7 @@ const Linkedin = ({ className }: { className?: string }) => (
 );
 
 export default function Footer() {
-  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+  const [currentYear, setCurrentYear] = useState(2026);
 
   useEffect(() => {
     setCurrentYear(new Date().getFullYear());
@@ -46,22 +46,22 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center mb-6 group inline-flex">
               <Image
-                src="/logo/smg-logo.png"
-                alt="S.M.G. Auto Repair"
-                width={140}
+                src="/logo/weho-logo.png"
+                alt="WeHo Auto Repair"
+                width={150}
                 height={90}
                 className="h-[70px] w-auto object-contain group-hover:scale-105 transition-transform duration-300"
               />
             </Link>
             <p className="text-[var(--color-textMuted)] mb-6 leading-relaxed text-sm">
-              We are a premium automotive repair & maintenance workshop dedicated to top-tier care and maintenance of your vehicle.
+              WeHo Auto Repair is your premier Los Angeles workshop for high-precision auto repair, 24/7 roadside assistance, and professional towing services.
             </p>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
                 <MapPin className="text-[var(--color-primary)] w-5 h-5 shrink-0 mt-1" />
                 <p className="text-[var(--color-textLight)] text-sm">
                   <strong className="block text-white mb-1">VISIT OUR LOCATION</strong>
-                  4700 Beverly Blvd, Los Angeles, CA 90004, United States
+                  6020 Santa Monica Blvd, Los Angeles, CA 90038, United States
                 </p>
               </div>
             </div>
@@ -74,9 +74,9 @@ export default function Footer() {
               Our Services
             </h3>
             <ul className="flex flex-col gap-3">
-              {['Engine Diagnostics & Repair', 'Advanced Auto Maintenance', 'Tire Change & Balancing', 'Paint & Body Work', 'Transmission Services'].map((item, i) => (
+              {['Auto Repair & Diagnostics', 'Roadside Assistance', '24/7 Towing Service', 'Tire Change & Balancing', 'Paint & Body Work'].map((item, i) => (
                 <li key={i}>
-                  <Link href="#" className="text-[var(--color-textMuted)] hover:text-[var(--color-primary)] transition-colors flex items-center gap-2 text-sm group">
+                  <Link href="/services" className="text-[var(--color-textMuted)] hover:text-[var(--color-primary)] transition-colors flex items-center gap-2 text-sm group">
                     <ArrowRight className="w-4 h-4 text-[var(--color-primary)] opacity-0 -ml-6 group-hover:opacity-100 group-hover:ml-0 transition-all" />
                     {item}
                   </Link>
@@ -133,7 +133,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-4">
           <p className="text-[var(--color-textMuted)] text-sm text-center md:text-left">
-            &copy; {currentYear} S.M.G. Auto Repair. All Rights Reserved. | Developed by <a href="https://rimondutta.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--color-primary)] transition-colors underline underline-offset-4 decoration-[var(--color-primary)]/30">Rimon Dutta</a>
+            &copy; <span suppressHydrationWarning>{currentYear}</span> WeHo Auto Repair. All Rights Reserved. | Developed by <a href="https://rimondutta.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--color-primary)] transition-colors underline underline-offset-4 decoration-[var(--color-primary)]/30">Rimon Dutta</a>
           </p>
           
           <div className="flex items-center gap-4">

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Bai_Jamjuree, Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -17,8 +17,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "S.M.G. Auto Repair | Car Repair and Maintenance",
-  description: "Best automobile maintenance workshop providing all types of car repair and maintenance services.",
+  title: "WeHo Auto Repair | Auto Repair, Roadside Assistance & Towing Service",
+  description: "WeHo Auto Repair delivers premier auto repair, 24/7 roadside assistance, and towing services in Los Angeles, CA. Located at 6020 Santa Monica Blvd.",
 };
 
 export default function RootLayout({
@@ -31,6 +31,7 @@ export default function RootLayout({
       lang="en"
       className={`${baiJamjuree.variable} ${montserrat.variable} h-full antialiased`}
       data-scroll-behavior="smooth"
+      suppressHydrationWarning
     >
       <body 
         className="min-h-full flex flex-col bg-[#110E10] text-[#DEDEDE]"

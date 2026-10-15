@@ -29,10 +29,10 @@ export default function FooterCTA() {
           </div>
           <div>
             <h2 className="text-white heading-font text-3xl md:text-5xl font-bold uppercase mb-2">
-              Give a Call to S.M.G. Auto Repair
+              Give a Call to WeHo Auto Repair
             </h2>
             <p className="text-white/90 text-lg md:text-xl font-medium">
-              If any car related issues are bothering you
+              Auto Repair, Roadside Assistance & 24/7 Towing Service
             </p>
           </div>
         </div>
@@ -46,17 +46,17 @@ export default function FooterCTA() {
           {/* Mechanic silhouette placeholder */}
           <div className="hidden lg:block w-32 h-32 rounded-full bg-gradient-to-t from-black/40 to-transparent relative -mr-12 z-0 border-4 border-white/10" />
           
-          <div className="bg-white p-5 md:p-8 rounded-xl shadow-2xl z-10 flex items-center gap-4 md:gap-5 hover:scale-105 transition-transform cursor-pointer w-full md:w-auto">
+          <a href="tel:+18184258208" className="bg-white p-5 md:p-8 rounded-xl shadow-2xl z-10 flex items-center gap-4 md:gap-5 hover:scale-105 transition-transform cursor-pointer w-full md:w-auto">
             <div className="bg-[var(--color-primary)]/10 p-3 md:p-4 rounded-full flex-shrink-0">
               <PhoneCall className="w-6 h-6 md:w-8 md:h-8 text-[var(--color-primary)] animate-pulse" />
             </div>
             <div>
               <p className="text-[var(--color-bgDark)] font-bold mb-0.5 md:mb-1 text-[10px] md:text-sm uppercase whitespace-nowrap">We are Available 24x7</p>
               <h3 className="text-xl md:text-3xl font-bold text-[var(--color-primary)] heading-font leading-none tracking-tight">
-                +13234628400
+                +1 818 425 8208
               </h3>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>

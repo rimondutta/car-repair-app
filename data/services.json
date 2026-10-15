@@ -4,7 +4,7 @@
     "title": "Engine Repair Services",
     "slug": "engine-repair",
     "category": "engine-mechanical",
-    "shortDescription": "When you bring your vehicle to ProWrench Mobile, you can rest easy knowing that your vehicle is in professional hands...",
+    "shortDescription": "When you bring your vehicle to WeHo Auto Repair, you can rest easy knowing that your vehicle is in professional hands...",
     "description": "Our certified technicians perform deep analysis utilizing automated diagnostic tooling. We can rebuild, replace, and tune critical engine components to factory standards.",
     "icon": "Settings2",
     "isActive": true,
@@ -12,29 +12,29 @@
     "price": "From $299",
     "image": "/assets/asset 12.jpeg",
     "detailedContent": [
-      "When you bring your vehicle to ProWrench Mobile, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure that your experience with us is pleasant and efficient. Our mechanics are factory trained and highly experienced, ensuring every major or minor problem is successfully resolved using genuine parts and computer diagnostics protocols.",
-      "ProWrench Mobile was established to help families secure dependable repair structures. As a standing RMI member, our network of trusted franchisees continually provides 100% genuine servicing protocols ensuring total life cycle management across millions of vehicle platforms globally."
+      "When you bring your vehicle to WeHo Auto Repair, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure that your experience with us is pleasant and efficient. Our mechanics are factory trained and highly experienced, ensuring every major or minor problem is successfully resolved using genuine parts and computer diagnostics protocols.",
+      "WeHo Auto Repair was established to help drivers and families secure dependable, expert automotive care. Our team continually provides 100% genuine servicing protocols ensuring total vehicle reliability and safety across Los Angeles."
     ],
     "checklist": [
-      "Ceramic Coating Services",
+      "Computerized Engine Diagnostics",
       "Tire Disc Blade Changing",
-      "Battery Check & Repair",
-      "Oil Change Services",
-      "Engine Repair Services",
-      "Club 360 Class Facility",
-      "Tanning/Red-Light Therapy",
-      "Guest Passes & Bottled Water"
+      "Battery Check & Load Testing",
+      "Synthetic Oil & Filter Service",
+      "Engine Repair & Overhauls",
+      "Spark Plug & Ignition Tuning",
+      "Coolant & Radiator Service",
+      "Comprehensive Safety Inspection"
     ],
     "iconBoxes": [
       {
         "iconName": "Activity",
         "title": "Quality Check Facility",
-        "description": "ProWrench Mobile is a member of the RMI. As a member, our center abides by the Code of Conduct."
+        "description": "WeHo Auto Repair abides by the highest automotive industry codes of excellence."
       },
       {
         "iconName": "Store",
-        "title": "Retail Motor Industry",
-        "description": "We are proud members of the Retail Motor Industry Organisation (RMI), ensuring standard excellence."
+        "title": "Certified Standards",
+        "description": "We use genuine OEM parts and certified protocols, ensuring total repair excellence."
       },
       {
         "iconName": "Settings",
@@ -44,7 +44,7 @@
       {
         "iconName": "Cpu",
         "title": "Modern Technology",
-        "description": "ProWrench Mobile uses modern technology and laser equipment for all repairs and diagnostics."
+        "description": "WeHo Auto Repair uses modern technology and laser equipment for all repairs and diagnostics."
       },
       {
         "iconName": "Droplets",
@@ -198,5 +198,79 @@
     "duration": "2 Hours",
     "price": "From $250",
     "image": "/assets/asset 43.jpeg"
+  },
+  {
+    "id": "11",
+    "title": "Roadside Assistance",
+    "slug": "roadside-assistance",
+    "category": "roadside-towing",
+    "shortDescription": "24/7 emergency roadside help across Los Angeles for lockouts, battery jump starts, tire changes, and fuel delivery.",
+    "description": "Stranded in Los Angeles? Our 24/7 mobile roadside assistance team dispatches quickly to handle jump starts, flat tires, lockouts, and emergency fuel delivery on-site.",
+    "icon": "ShieldAlert",
+    "isActive": true,
+    "duration": "15-30 Min Arrival",
+    "price": "From $65",
+    "image": "/assets/asset 62.jpeg",
+    "detailedContent": [
+      "When you find yourself stranded on the freeway, in a parking structure, or on the streets of West Hollywood and Greater Los Angeles, WeHo Auto Repair provides rapid 24/7 roadside assistance.",
+      "Our emergency response units are equipped with commercial jump-start packs, computerized battery analyzers, hydraulic floor jacks, and universal lockout tools to get you safely back on the move in no time."
+    ],
+    "checklist": [
+      "24/7 Fast Emergency Dispatch",
+      "Heavy-Duty Battery Jump Starts",
+      "Emergency Vehicle Lockout Service",
+      "On-Site Spare Tire Mounting",
+      "Emergency Gasoline & Fluid Delivery",
+      "Alternator & Charging System Test"
+    ],
+    "iconBoxes": [
+      {
+        "iconName": "Activity",
+        "title": "Rapid Dispatch",
+        "description": "Strategically stationed in West Hollywood to reach your Los Angeles location in minutes."
+      },
+      {
+        "iconName": "Settings",
+        "title": "Professional Equipment",
+        "description": "Equipped with specialized tools that safeguard your vehicle from damage."
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "24/7 Towing Service",
+    "slug": "towing-service",
+    "category": "roadside-towing",
+    "shortDescription": "Safe and damage-free flatbed towing service available 24/7 throughout West Hollywood and Los Angeles.",
+    "description": "Complete towing solutions for disabled vehicles, accident recovery, electric cars, and exotic sports cars with prompt dispatch and honest pricing.",
+    "icon": "Truck",
+    "isActive": true,
+    "duration": "Immediate Dispatch",
+    "price": "From $85",
+    "image": "/assets/asset 63.jpeg",
+    "detailedContent": [
+      "WeHo Auto Repair operates modern flatbed tow trucks engineered for damage-free transport of all passenger cars, electric vehicles, SUVs, trucks, and low-profile sports cars across Los Angeles.",
+      "Whether your car broke down unexpectedly, was involved in a collision, or needs scheduled transport directly to our shop at 6020 Santa Monica Blvd, our certified operators deliver fast, courteous, and professional towing 24 hours a day."
+    ],
+    "checklist": [
+      "Modern Flatbed Tow Trucks",
+      "Accident & Collision Recovery",
+      "Damage-Free Soft-Strap Securing",
+      "Low-Clearance & Exotic Car Safe",
+      "Electric Vehicle (EV) Towing",
+      "Local & Long-Distance Towing"
+    ],
+    "iconBoxes": [
+      {
+        "iconName": "ShieldAlert",
+        "title": "Certified Operators",
+        "description": "Licensed and insured tow specialists trained in handling all vehicle makes and models."
+      },
+      {
+        "iconName": "Settings",
+        "title": "Direct Shop Drop-Off",
+        "description": "Tow directly to WeHo Auto Repair at 6020 Santa Monica Blvd for priority repair diagnostics."
+      }
+    ]
   }
 ]

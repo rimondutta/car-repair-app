@@ -4,7 +4,8 @@ import servicesJson from './services.json';
 export const servicesData: Service[] = servicesJson as Service[];
 
 export const filterTabs: FilterTab[] = [
-  { label: "All Services", value: "all", count: 8 },
+  { label: "All Services", value: "all", count: 10 },
+  { label: "Roadside & Towing", value: "roadside-towing", count: 2 },
   { label: "Engine & Mechanical", value: "engine-mechanical", count: 2 },
   { label: "Tires & Wheels", value: "tires-wheels", count: 2 },
   { label: "Body & Denting", value: "body-denting", count: 2 },

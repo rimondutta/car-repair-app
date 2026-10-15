@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 import { ArrowUpRight } from "lucide-react";
@@ -7,23 +7,23 @@ import Link from "next/link";
 const slides = [
   {
     id: 1,
-    subtitle: "BEST AUTOMOBILE MAINTENANCE WORKSHOP",
-    title: "Car Repair and Maintenance Services",
-    description: "We provide comprehensive diagnostic, repair, and maintenance services utilizing advanced workshop equipment to get you back on the road safely.",
+    subtitle: "EXPERT AUTO REPAIR & 24/7 TOWING",
+    title: "Auto Repair, Roadside Assistance & Towing Service",
+    description: "WeHo Auto Repair provides comprehensive mechanical care, rapid emergency roadside assistance, and dependable 24/7 towing across Los Angeles.",
     bgClass: "bg-[url('/assets/asset%2062.jpeg')] bg-cover bg-center",
   },
   {
     id: 2,
-    subtitle: "PREMIUM CAR CARE EXPERTS",
-    title: "Professional Auto Service For Premium Performance",
-    description: "Our certified master mechanics deliver dealership-quality service at honest prices, from routine oil changes to complete engine overhauls.",
+    subtitle: "PREMIUM CAR CARE & RECOVERY",
+    title: "Professional Auto Service & Emergency Roadside Support",
+    description: "Our certified master mechanics deliver dealership-quality service and prompt roadside response at honest prices, keeping you moving safely.",
     bgClass: "bg-[url('/assets/asset%2063.jpeg')] bg-cover bg-center",
   },
   {
     id: 3,
-    subtitle: "CERTIFIED MECHANICS",
-    title: "Complete Car Checkup & Diagnostic Services",
-    description: "Don't let minor issues become major repairs. Schedule a comprehensive multipoint inspection with our advanced diagnostic tooling.",
+    subtitle: "CERTIFIED MECHANICS & TOW TRUCKS",
+    title: "Complete Diagnostics & Rapid Roadside Assistance",
+    description: "From check engine lights and brake repairs to flat tires and lockouts, count on WeHo Auto Repair for fast dispatch and expert craftsmanship.",
     bgClass: "bg-[url('/assets/asset%2064.jpeg')] bg-cover bg-center",
   },
 ];
@@ -112,7 +112,7 @@ export default function HeroSlider() {
                   </Link>
 
                   <a 
-                    href="https://wa.me/13234628400" 
+                    href="https://wa.me/18184258208" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white/50 text-white px-8 py-4 text-sm md:text-base font-bold uppercase tracking-wider hover:bg-white hover:text-black hover:border-white transition-all group shadow-lg"

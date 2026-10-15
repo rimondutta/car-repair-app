@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useContactForm } from "@/hooks/useContactForm";
 import { Send, CheckCircle, Loader2, ChevronDown } from "lucide-react";
@@ -26,7 +26,7 @@ export default function ContactForm() {
           Message Sent Successfully!
         </h2>
         <p className="text-[#999] text-base mb-10 max-w-sm">
-          Thank you for reaching out to S.M.G. Auto Repair. Our team will review your message and get back to you within 24 hours.
+          Thank you for reaching out to WeHo Auto Repair. Our team will review your message and get back to you promptly.
         </p>
         <button 
           onClick={resetForm}
@@ -125,11 +125,13 @@ export default function ContactForm() {
               className="w-full bg-[#110E10] border border-[#2e2e2e] focus:border-[#D70006] focus:ring-1 focus:ring-[#D70006]/30 px-5 py-4 text-white outline-none transition-all appearance-none font-medium tracking-wide"
             >
               <option className="bg-[#1B1B1B]">Select a Service</option>
-              <option className="bg-[#1B1B1B]">Engine Repair</option>
+              <option className="bg-[#1B1B1B]">Auto Repair & Diagnostics</option>
+              <option className="bg-[#1B1B1B]">Roadside Assistance</option>
+              <option className="bg-[#1B1B1B]">24/7 Towing Service</option>
+              <option className="bg-[#1B1B1B]">Engine Repair & Tune-up</option>
               <option className="bg-[#1B1B1B]">Tire Change & Repair</option>
-              <option className="bg-[#1B1B1B]">Car Denting Repair</option>
-              <option className="bg-[#1B1B1B]">Battery Check</option>
-              <option className="bg-[#1B1B1B]">Ceramic Coating</option>
+              <option className="bg-[#1B1B1B]">Car Denting & Body Repair</option>
+              <option className="bg-[#1B1B1B]">Battery Check & Jumpstart</option>
               <option className="bg-[#1B1B1B]">Other</option>
             </select>
             <ChevronDown className="absolute right-5 top-1/2 -translate-y-1/2 text-[#D70006] pointer-events-none group-focus-within:rotate-180 transition-transform duration-300" />

@@ -1,4 +1,4 @@
-﻿import { Metadata } from "next";
+import { Metadata } from "next";
 import ContactHeroBanner from "@/components/contact/ContactHeroBanner";
 import ContactInfoStrip from "@/components/contact/ContactInfoStrip";
 import ContactMainSection from "@/components/contact/ContactMainSection";
@@ -6,8 +6,8 @@ import ContactMapSection from "@/components/contact/ContactMapSection";
 import ContactCTABanner from "@/components/contact/ContactCTABanner";
 
 export const metadata: Metadata = {
-  title: "Contact Us | S.M.G. Auto Repair",
-  description: "Get in touch with S.M.G. Auto Repair. Call us, email us, or visit our workshop at 4700 Beverly Blvd, Los Angeles, CA 90004, United States. Professional car maintenance services.",
+  title: "Contact Us | WeHo Auto Repair",
+  description: "Get in touch with WeHo Auto Repair. Call or WhatsApp +1 (818) 425-8208, or visit our workshop at 6020 Santa Monica Blvd, Los Angeles, CA 90038, United States for auto repair, roadside assistance, and 24/7 towing services.",
 };
 
 export default function ContactPage() {

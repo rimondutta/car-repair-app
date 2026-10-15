@@ -26,8 +26,8 @@ const faqs = [
   },
   {
     id: 5,
-    question: "Do I need an appointment or can I walk in?",
-    answer: "While we do accept emergency walk-ins for flat tires or blown batteries, we highly recommend booking an appointment to guarantee bay space and minimize your wait time."
+    question: "Do I need an appointment or can I call for emergency roadside assistance/towing?",
+    answer: "For emergency roadside assistance and 24/7 towing, no appointment is necessary—simply call or WhatsApp us at +1 818 425 8208 for immediate dispatch. For routine maintenance and major repairs at our shop (6020 Santa Monica Blvd), appointments are recommended but walk-ins are always welcome."
   },
   {
     id: 6,

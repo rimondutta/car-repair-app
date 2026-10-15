@@ -1,18 +1,18 @@
 "use client";
 
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const schedule = [
-  { day: 'Monday', time: '9am â€“ 7pm' },
-  { day: 'Tuesday', time: '9am â€“ 7pm' },
-  { day: 'Wednesday', time: '9am â€“ 7pm' },
-  { day: 'Thursday', time: '9am â€“ 7pm' },
-  { day: 'Friday', time: '9am â€“ 7pm' },
-  { day: 'Saturday', time: '9am â€“ 7pm' },
-  { day: 'Sunday', time: 'Closed', isClosed: true },
+  { day: 'Monday', time: '8:00 AM - 7:00 PM' },
+  { day: 'Tuesday', time: '8:00 AM - 7:00 PM' },
+  { day: 'Wednesday', time: '8:00 AM - 7:00 PM' },
+  { day: 'Thursday', time: '8:00 AM - 7:00 PM' },
+  { day: 'Friday', time: '8:00 AM - 7:00 PM' },
+  { day: 'Saturday', time: '8:00 AM - 7:00 PM' },
+  { day: 'Sunday', time: 'Emergency Towing Only', isClosed: false },
 ];
 
 export default function ContactInfoPanel() {
@@ -27,9 +27,10 @@ export default function ContactInfoPanel() {
   }, []);
 
   const contactRows = [
-    { icon: <Phone size={18} />, label: "Phone", value: "+1 323 462 8400", href: "tel:+13234628400" },
-    { icon: <Mail size={18} />, label: "Email", value: "smgautorepair@gmail.com", href: "mailto:smgautorepair@gmail.com" },
-    { icon: <MapPin size={18} />, label: "Address", value: "4700 Beverly Blvd, Los Angeles, CA 90004, United States", href: undefined },
+    { icon: <Phone size={18} />, label: "Phone", value: "+1 818 425 8208", href: "tel:+18184258208" },
+    { icon: <MessageCircle size={18} />, label: "WhatsApp", value: "+1 818 425 8208", href: "https://wa.me/18184258208" },
+    { icon: <Mail size={18} />, label: "Email", value: "wehoautorepair@gmail.com", href: "mailto:wehoautorepair@gmail.com" },
+    { icon: <MapPin size={18} />, label: "Address", value: "6020 Santa Monica Blvd, Los Angeles, CA 90038, United States", href: undefined },
   ];
 
   return (
@@ -56,7 +57,7 @@ export default function ContactInfoPanel() {
         </h2>
         
         <p className="text-[#999] text-base leading-relaxed mb-8">
-          When you bring your vehicle to S.M.G. Auto Repair, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure your experience is pleasant and efficient.
+          When you bring your vehicle to WeHo Auto Repair, or call us for emergency roadside assistance and towing, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure your experience is prompt, reliable, and efficient.
         </p>
 
         <div className="flex flex-col gap-6">

@@ -1,7 +1,7 @@
 "use client";
 
 export default function MarqueeBanner() {
-  const marqueeText = "ENGINE REPAIR \u2726 OIL CHANGE \u2726 CAR AC REPAIR \u2726 CAR BATTERY REPLACEMENT \u2726 RADIATOR REPAIR SERVICE \u2726 CAR BRAKE REPAIR SERVICE \u2726 ";
+  const marqueeText = "WEHO AUTO REPAIR \u2726 24/7 TOWING SERVICE \u2726 ROADSIDE ASSISTANCE \u2726 ENGINE REPAIR \u2726 TIRE SERVICE \u2726 BRAKE REPAIR \u2726 ";
 
   // Duplicate for seamless infinite loop
   const textArray = Array(4).fill(marqueeText).join("");

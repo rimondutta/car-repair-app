@@ -19,6 +19,7 @@ const IconComponent = ({ name }: { name: string }) => {
 };
 
 const categoryLabels: Record<string, string> = {
+  "roadside-towing": "Roadside & Towing",
   "engine-mechanical": "Engine & Mechanical",
   "tires-wheels": "Tires & Wheels",
   "body-denting": "Body & Denting",

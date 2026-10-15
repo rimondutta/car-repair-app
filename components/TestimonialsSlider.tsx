@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 import { Quote, Star, ArrowUpRight } from "lucide-react";
@@ -8,23 +8,23 @@ const testimonials = [
   {
     id: 1,
     name: "Alex Johnson",
-    city: "Detroit, MI",
-    quote: "I've visited numerous auto maintenance shops, but S.M.G. Auto Repair exceeds all expectations. Their attention to detail on my classic car was phenomenal. True experts.",
+    city: "Los Angeles, CA",
+    quote: "I've visited numerous auto maintenance shops, but WeHo Auto Repair exceeds all expectations. Their towing was immediate and their repair precision was phenomenal. True experts.",
     rating: 5,
     image: "/assets/asset 35.png"
   },
   {
     id: 2,
     name: "Samantha Miller",
-    city: "Chicago, IL",
-    quote: "After a major denting issue, I thought my vehicle was ruined. Their paintless dent repair and color matching technique brought it back to showroom condition. Unbelievable service!",
+    city: "West Hollywood, CA",
+    quote: "After an unexpected roadside breakdown, their towing dispatch arrived in minutes and their diagnostic team brought my car back to peak condition. Unbelievable service!",
     rating: 5,
     image: "/assets/asset 36.png"
   },
   {
     id: 3,
     name: "Michael Chen",
-    city: "Ann Arbor, MI",
+    city: "Los Angeles, CA",
     quote: "The only place I trust for my engine diagnostics. They don't just fix problems; they explain the 'why' and ensure everything is calibrated perfectly. Outstanding professionalism.",
     rating: 5,
     image: "/assets/asset 37.png"
@@ -56,7 +56,7 @@ export default function TestimonialsSlider() {
              </span>
              <h2 className="text-white heading-font text-4xl md:text-5xl font-bold uppercase leading-tight">
                 What Our Clients <br />
-                <span className="text-[var(--color-primary)] italic">Say About</span> S.M.G. Auto Repair...
+                <span className="text-[var(--color-primary)] italic">Say About</span> WeHo Auto Repair...
              </h2>
           </div>
           <Link 

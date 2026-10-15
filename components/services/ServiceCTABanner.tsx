@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { Phone } from "lucide-react";
 
@@ -38,19 +38,19 @@ export default function ServiceCTABanner() {
 
           {/* Center Block */}
           <h2 className="text-white heading-font text-2xl md:text-4xl lg:text-5xl font-black uppercase tracking-wider whitespace-nowrap drop-shadow-lg">
-            Give A Call To S.M.G. Auto Repair
+            Give A Call To WeHo Auto Repair
           </h2>
 
           {/* Right Block */}
-          <div className="flex items-center gap-4 bg-black/20 px-6 py-4 rounded-full border border-white/10 hover:bg-white hover:text-[var(--color-primary)] group transition-all duration-300">
+          <a href="tel:+18184258208" className="flex items-center gap-4 bg-black/20 px-6 py-4 rounded-full border border-white/10 hover:bg-white hover:text-[var(--color-primary)] group transition-all duration-300">
             <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-[var(--color-primary)] group-hover:bg-[var(--color-primary)] group-hover:text-white transition-colors">
               <Phone className="w-5 h-5" />
             </div>
             <div className="flex flex-col text-left">
               <span className="text-white text-xs uppercase tracking-wider opacity-80 group-hover:text-[var(--color-primary)]">We are Available 24x7</span>
-              <span className="text-white font-bold text-lg md:text-xl group-hover:text-[var(--color-primary)]">+13234628400</span>
+              <span className="text-white font-bold text-lg md:text-xl group-hover:text-[var(--color-primary)]">+1 818 425 8208</span>
             </div>
-          </div>
+          </a>
 
         </div>
       </div>

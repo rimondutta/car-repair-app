@@ -56,10 +56,10 @@ export default function ContactInfoStrip() {
           
           <InfoBox 
             icon={<Phone className="w-8 h-8" />}
-            label="CALL US ANYTIME"
-            value="+13234628400"
-            sub="Mon–Sat 9:00am – 7:00pm"
-            href="tel:+13234628400"
+            label="CALL OR WHATSAPP"
+            value="+1 818 425 8208"
+            sub="24/7 Roadside & Towing Dispatch"
+            href="tel:+18184258208"
             delay={0}
             showDivider={true}
           />
@@ -67,9 +67,9 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<Mail className="w-8 h-8" />}
             label="SEND US AN EMAIL"
-            value="smgautorepair@gmail.com"
+            value="wehoautorepair@gmail.com"
             sub="We reply within 24 hours"
-            href="mailto:smgautorepair@gmail.com"
+            href="mailto:wehoautorepair@gmail.com"
             delay={100}
             showDivider={true}
           />
@@ -77,8 +77,8 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<MapPin className="w-8 h-8" />}
             label="VISIT OUR LOCATION"
-            value="4700 Beverly Blvd, Los Angeles, CA 90004, United States"
-            sub="Los Angeles, CA"
+            value="6020 Santa Monica Blvd, Los Angeles, CA 90038, United States"
+            sub="West Hollywood / Los Angeles, CA"
             delay={200}
             showDivider={false}
           />

@@ -1,8 +1,8 @@
 import { MapPin, Phone, Clock, ArrowUpRight } from "lucide-react";
 
 export default function ContactMapSection() {
-  const address = "4700 Beverly Blvd, Los Angeles, CA 90004, United States";
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.6904175651625!2d-118.31437158595807!3d34.07744948813996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b93f565d8657%3A0xc070979103689c92!2sS.M.G.%20Auto%20Repair!5e0!3m2!1sen!2sbd!4v1791994148998!5m2!1sen!2sbd`;
+  const address = "6020 Santa Monica Blvd, Los Angeles, CA 90038, United States";
+  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105790.26883155924!2d-118.40741799078067!3d34.04525880673682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf2f61495811%3A0x58716b5f73f2c760!2sWeHo%20Auto%20Repair!5e0!3m2!1sen!2s!4v1792073854380!5m2!1sen!2s";
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address)}`;
 
   return (
@@ -20,8 +20,8 @@ export default function ContactMapSection() {
           style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg)' }}
           allowFullScreen
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="S.M.G. Auto Repair Location"
+          referrerPolicy="strict-origin-when-cross-origin"
+          title="WeHo Auto Repair Location"
           className="w-full h-full"
         />
       </div>
@@ -31,7 +31,7 @@ export default function ContactMapSection() {
         <div className="bg-[#1B1B1B] border border-[#2e2e2e] p-8 shadow-2xl relative animate-in slide-in-from-left duration-700">
           <div className="absolute left-0 top-0 bottom-0 w-1 bg-[#D70006]"></div>
           
-          <h3 className="text-white text-xl font-bold uppercase heading-font mb-4 tracking-wider">S.M.G. Auto Repair</h3>
+          <h3 className="text-white text-xl font-bold uppercase heading-font mb-4 tracking-wider">WeHo Auto Repair</h3>
           
           <div className="flex flex-col gap-4">
             <div className="flex items-start gap-4">
@@ -41,12 +41,12 @@ export default function ContactMapSection() {
             
             <div className="flex items-center gap-4">
               <Phone className="text-[#D70006] w-5 h-5" />
-              <p className="text-[#999] text-sm">+13234628400</p>
+              <a href="tel:+18184258208" className="text-[#999] text-sm hover:text-[#D70006] transition-colors">+1 818 425 8208</a>
             </div>
             
             <div className="flex items-center gap-4">
               <Clock className="text-[#D70006] w-5 h-5" />
-              <p className="text-[#999] text-sm">Monâ€“Sat: 9am â€“ 7pm</p>
+              <p className="text-[#999] text-sm">Mon - Sat: 8:00 AM - 7:00 PM</p>
             </div>
 
             <div className="h-px bg-[#2e2e2e] my-2"></div>

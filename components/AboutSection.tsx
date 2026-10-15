@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Wrench, ArrowDown, ArrowUpRight } from "lucide-react";
@@ -75,10 +75,10 @@ export default function AboutSection() {
               }`}
             >
               <p>
-                From simple maintenance to complete engine rebuilds, S.M.G. Auto Repair provides elite-level car servicing that prioritizes quality, precision, and longevity. We believe every vehicle deserves meticulous attention and premium parts.
+                From routine maintenance and emergency roadside assistance to complete towing and engine rebuilds, WeHo Auto Repair provides elite-level car servicing that prioritizes quality, speed, and safety. We believe every vehicle deserves meticulous attention and premium parts.
               </p>
               <p>
-                Our certified mechanics utilize state-of-the-art diagnostic equipment to pinpoint underlying issues that other shops miss. Experience true automotive performance care designed to extend the lifespan of your passion.
+                Our certified mechanics and dedicated towing crew utilize state-of-the-art equipment to handle all breakdown and maintenance emergencies across Los Angeles. Experience true automotive performance care designed to keep you moving forward.
               </p>
             </div>
 

@@ -15,6 +15,8 @@ import {
   Sparkles, 
   Circle, 
   Settings2,
+  Truck,
+  ShieldAlert,
   LucideIcon 
 } from "lucide-react";
 import ChevronIcon from "./ChevronIcon";
@@ -39,6 +41,8 @@ const ICON_MAP: Record<string, LucideIcon> = {
   Sparkles,
   Circle,
   Settings2,
+  Truck,
+  ShieldAlert,
 };
 
 interface ServiceDetailsProps {

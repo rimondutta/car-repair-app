@@ -46,7 +46,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex items-center gap-2 pr-6 border-r border-[#333]">
               <Mail className="w-3.5 h-3.5 text-[var(--color-primary)]" />
-              <span className="font-medium tracking-wider">smgautorepair@gmail.com</span>
+              <span className="font-medium tracking-wider">wehoautorepair@gmail.com</span>
             </div>
             <div className="flex items-center gap-2 px-6 border-r border-[#333]">
               <Clock className="w-3.5 h-3.5 text-[var(--color-primary)]" />
@@ -54,7 +54,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-2 pl-6">
               <MapPin className="w-3.5 h-3.5 text-[var(--color-primary)]" />
-              <span className="font-medium tracking-wider">4700 Beverly Blvd, Los Angeles, CA 90004, United States</span>
+              <span className="font-medium tracking-wider">6020 Santa Monica Blvd, Los Angeles, CA 90038, United States</span>
             </div>
           </div>
 
@@ -81,9 +81,9 @@ export default function Navbar() {
           {/* LOGO */}
           <Link href="/" className="flex items-center group shrink min-w-0 mr-2">
             <Image
-              src="/logo/smg-logo.png"
-              alt="S.M.G. Auto Repair"
-              width={120}
+              src="/logo/weho-logo.png"
+              alt="WeHo Auto Repair"
+              width={140}
               height={80}
               className="h-[56px] sm:h-[64px] md:h-[72px] w-auto object-contain group-hover:scale-105 transition-transform duration-300"
               priority
@@ -119,8 +119,8 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col justify-center leading-tight">
                 <span className="text-[10px] text-white/60 font-bold uppercase tracking-widest mb-0.5">Need Help?</span>
-                <a href="tel:+13234628400" className="text-white font-black text-sm md:text-lg hover:text-[var(--color-primary)] transition-colors">
-                  +1 323 462 8400
+                <a href="tel:+18184258208" className="text-white font-black text-sm md:text-lg hover:text-[var(--color-primary)] transition-colors">
+                  +1 818 425 8208
                 </a>
               </div>
             </div>
@@ -167,7 +167,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col">
                 <span className="text-white/40 text-[10px] uppercase font-bold tracking-widest">Call Now</span>
-                <span className="text-white font-bold text-xl">+1 323 462 8400</span>
+                <a href="tel:+18184258208" className="text-white font-bold text-xl hover:text-[var(--color-primary)] transition-colors">+1 818 425 8208</a>
               </div>
             </div>
           </div>
